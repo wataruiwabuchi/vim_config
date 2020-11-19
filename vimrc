@@ -1,7 +1,4 @@
 set nocompatible
-
-
-
 set number
 set cursorline
 "set cursorcolumn
@@ -9,6 +6,7 @@ set laststatus=2
 set cmdheight=2
 set showmatch
 set helpheight=999
+set paste
 "set list
 
 set backspace=indent,eol,start
@@ -28,7 +26,7 @@ set incsearch
 set ignorecase
 set smartcase
 set wrapscan
-set gdefault
+"set gdefault
 
 set expandtab 
 set tabstop=2
