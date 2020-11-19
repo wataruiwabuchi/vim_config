@@ -6,7 +6,6 @@ set laststatus=2
 set cmdheight=2
 set showmatch
 set helpheight=999
-set paste
 "set list
 
 set backspace=indent,eol,start
@@ -34,6 +33,7 @@ set shiftwidth=2
 set softtabstop=2
 set autoindent
 set smartindent
+set paste
 
 "set clipboard=unnamed,unnamedplus
 "set mouse=a
