@@ -2,11 +2,11 @@ set nocompatible
 set number
 set cursorline
 "set cursorcolumn
-set laststatus=2
-set cmdheight=2
-set showmatch
-set helpheight=999
-"set list
+"set laststatus=2
+"set cmdheight=2
+"set showmatch
+"set helpheight=999
+""set list
 
 set backspace=indent,eol,start
 set whichwrap=b,s,h,l,<,>,[,]
@@ -28,28 +28,28 @@ set wrapscan
 "set gdefault
 
 set expandtab 
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set autoindent
-set smartindent
+set tabstop=4
+set shiftwidth=4
+"set softtabstop=2
+"set autoindent
+"set smartindent
 set paste
-
-"set clipboard=unnamed,unnamedplus
+"
+""set clipboard=unnamed,unnamedplus
 "set mouse=a
-"set shellslash
+""set shellslash
 "set iminsert=2
-
-set wildmenu wildmode=list:longest,full
-set history=10000
-set visualbell t_vb=
-set noerrorbells
-"colorscheme molokai
+"
+"set wildmenu wildmode=list:longest,full
+"set history=10000
+"set visualbell t_vb=
+"set noerrorbells
+""colorscheme molokai
 "set t_Co=256
-autocmd VimEnter,ColorScheme * hi Comment ctermfg=Green 
-"autocmd VimEnter,ColorScheme * hi Constant ctermfg=Red 
+"autocmd VimEnter,ColorScheme * hi Comment ctermfg=Green 
+""autocmd VimEnter,ColorScheme * hi Constant ctermfg=Red 
 "autocmd VimEnter,ColorScheme * hi Identifier ctermfg=Cyan 
-""autocmd VimEnter,ColorScheme * hi Statement ctermfg=Yellow 
+"""autocmd VimEnter,ColorScheme * hi Statement ctermfg=Yellow 
 "autocmd VimEnter,ColorScheme * hi Title ctermfg=Magenta 
-"autocmd VimEnter,ColorScheme * hi Special ctermfg=Magenta 
+""autocmd VimEnter,ColorScheme * hi Special ctermfg=Magenta 
 syntax on
