@@ -27,13 +27,14 @@ set smartcase
 set wrapscan
 "set gdefault
 
+set paste
 set expandtab 
 set tabstop=4
 set shiftwidth=4
 "set softtabstop=2
 "set autoindent
 "set smartindent
-set paste
+
 "
 ""set clipboard=unnamed,unnamedplus
 "set mouse=a
